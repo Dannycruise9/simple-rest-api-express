@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const itemsRoutes = require('./routes/items'); // Correctly import the routes
+const itemsRoutes = require('./items'); // Correctly import the routes
 
 const PORT = 3000;
 
